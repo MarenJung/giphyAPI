@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GifTastic</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+</head>
+
+<body>
+    <div class="panel" id="startingButtons">
+        <div class="panel-heading">
+            <h1 class="panelname">GIFtastic!</h3>
+            <h2> Instructions: </h2>
+            <h3>Click a button below to see gifs or search your own topic and add to the list!</h3>
+        </div>
+        <div id="addButton" class="panel-body">
+        </div>
+        <p id="text">Click the Gif to play or stop</p>
+
+    </div>
+    <form id="gifForm">
+        <label form="gifInput">Search Your Own:</label>
+        <input type="text" id="gif-input">
+        <br>
+        <input id="addGif" type="submit" value="Add">
+    </form>
+    <div style="background:transparent" id="gifsAppearHere" class="jumbotron myJumbotron"></div>
+    </div>
+    <script type="text/javascript" src="assets/javascript/logic.js"></script>
+</body>
+
+</html>

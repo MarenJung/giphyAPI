@@ -1,0 +1,70 @@
+.panelname {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 48px;
+    color:rgb(142, 150, 130)
+}
+
+.panel {
+    font-size: 22px;
+    font-family: 'Questrial', sans-serif;
+}
+
+
+#addButton {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    background-color: white;
+}
+
+.text {
+    margin-top: 3%;
+}
+
+#gifForm {
+    text-align: center;
+}
+
+#startingButtons {
+    margin: 5%;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.topic {
+    font-family: 'Abril Fatface', cursive;
+}
+
+form {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#gif-input {
+    margin: 2%;
+}
+
+label {
+    font-family: 'Questrial', sans-serif;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.item p {
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
